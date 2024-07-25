@@ -25,13 +25,13 @@ function gigpress_settings() {
                 <tr>
                     <th scope="row"><?php _e( "No upcoming shows message", "gigpress" ) ?>:</th>
                     <td>
-                        <input type="text" name="gigpress_settings[noupcoming]" size="48" value="<?php echo $gpo['noupcoming']; ?>"/>
+                        <input type="text" name="gigpress_settings[noupcoming]" size="48" value="<?php echo esc_attr($gpo['noupcoming']); ?>"/>
                     </td>
                 </tr>
                 <tr>
                     <th scope="row"><?php _e( "No past shows message", "gigpress" ) ?>:</th>
                     <td>
-                        <input type="text" name="gigpress_settings[nopast]" size="48" value="<?php echo $gpo['nopast']; ?>"/>
+                        <input type="text" name="gigpress_settings[nopast]" size="48" value="<?php echo esc_attr($gpo['nopast']); ?>"/>
                     </td>
                 </tr>
 
@@ -90,31 +90,31 @@ function gigpress_settings() {
                 <tr>
                     <th scope="row"><?php _e( "Artist label", "gigpress" ) ?>:</th>
                     <td>
-                        <input type="text" name="gigpress_settings[artist_label]" size="48" value="<?php echo $gpo['artist_label']; ?>"/>
+                        <input type="text" name="gigpress_settings[artist_label]" size="48" value="<?php echo esc_attr($gpo['artist_label']); ?>"/>
                     </td>
                 </tr>
                 <tr>
                     <th scope="row"><?php _e( "Tour label", "gigpress" ) ?>:</th>
                     <td>
-                        <input type="text" name="gigpress_settings[tour_label]" size="48" value="<?php echo $gpo['tour_label']; ?>"/>
+                        <input type="text" name="gigpress_settings[tour_label]" size="48" value="<?php echo esc_attr($gpo['tour_label']); ?>"/>
                     </td>
                 </tr>
                 <tr>
                     <th scope="row"><?php _e( "External link label", "gigpress" ) ?>:</th>
                     <td>
-                        <input type="text" name="gigpress_settings[external_link_label]" size="48" value="<?php echo $gpo['external_link_label']; ?>"/>
+                        <input type="text" name="gigpress_settings[external_link_label]" size="48" value="<?php echo esc_attr($gpo['external_link_label']); ?>"/>
                     </td>
                 </tr>
                 <tr>
                     <th scope="row"><?php _e( "Buy tickets label", "gigpress" ) ?>:</th>
                     <td>
-                        <input type="text" name="gigpress_settings[buy_tickets_label]" size="48" value="<?php echo $gpo['buy_tickets_label']; ?>"/>
+                        <input type="text" name="gigpress_settings[buy_tickets_label]" size="48" value="<?php echo esc_attr($gpo['buy_tickets_label']); ?>"/>
                     </td>
                 </tr>
                 <tr>
                     <th scope="row"><?php _e( "Age restrictions", "gigpress" ) ?>:</th>
                     <td>
-                        <input type="text" name="gigpress_settings[age_restrictions]" size="48" value="<?php echo $gpo['age_restrictions']; ?>"/>
+                        <input type="text" name="gigpress_settings[age_restrictions]" size="48" value="<?php echo esc_attr($gpo['age_restrictions']); ?>"/>
                         <span class="description"><?php _e( "A pipe-separated list of available age restrictions.", "gigpress" ); ?></span>
                     </td>
                 </tr>
@@ -139,7 +139,7 @@ function gigpress_settings() {
                 <tr>
                     <th scope="row"><?php _e( "Related show heading", "gigpress" ) ?>:</th>
                     <td>
-                        <input type="text" name="gigpress_settings[related_heading]" size="48" value="<?php echo $gpo['related_heading']; ?>"/>
+                        <input type="text" name="gigpress_settings[related_heading]" size="48" value="<?php echo esc_attr($gpo['related_heading']); ?>"/>
                         <span class="description"><?php _e( "This appears before the gig details in your related post.", "gigpress" ) ?></span>
                     </td>
                 </tr>
@@ -189,7 +189,7 @@ function gigpress_settings() {
                 <tr>
                     <th scope="row"><?php _e( "Related post phrase", "gigpress" ) ?>:</th>
                     <td>
-                        <input type="text" name="gigpress_settings[related]" size="48" value="<?php echo $gpo['related']; ?>"/>
+                        <input type="text" name="gigpress_settings[related]" size="48" value="<?php echo esc_attr($gpo['related']); ?>"/>
                         <span class="description"><?php _e( "This appears in your shows listing.", "gigpress" ) ?></span>
                     </td>
                 </tr>
@@ -219,13 +219,13 @@ function gigpress_settings() {
                 <tr>
                     <th scope="row"><?php _e( "RSS/iCal feed title", "gigpress" ) ?>:</th>
                     <td>
-                        <input type="text" name="gigpress_settings[rss_title]" size="48" value="<?php echo $gpo['rss_title']; ?>"/>
+                        <input type="text" name="gigpress_settings[rss_title]" size="48" value="<?php echo esc_attr($gpo['rss_title']); ?>"/>
                     </td>
                 </tr>
                 <tr>
                     <th scope="row"><?php _e( "RSS/iCal feed limit", "gigpress" ) ?>:</th>
                     <td>
-                        <input type="text" name="gigpress_settings[rss_limit]" size="48" value="<?php echo $gpo['rss_limit']; ?>"/>
+                        <input type="text" name="gigpress_settings[rss_limit]" size="48" value="<?php echo esc_attr($gpo['rss_limit']); ?>"/>
                     </td>
                 </tr>
                 <tr>
